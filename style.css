@@ -17,9 +17,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-h1{
-  font-size:5rem;
-}
+
 .quote-container {
   width: auto;
   max-width: 900px;
