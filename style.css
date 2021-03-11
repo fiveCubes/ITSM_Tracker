@@ -101,3 +101,22 @@ button:hover {
    
   }
 }
+
+
+@media screen and (max-width: 400px) {
+  .quote-container {
+   margin-top:1px;
+  }
+  /* image size modified */
+  img{
+    width:25%;
+  }
+  
+
+
+  .date-text{
+    font-size:0.5rem;
+   
+  }
+}
+
