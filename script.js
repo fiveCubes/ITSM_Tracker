@@ -24,7 +24,7 @@ var countDownDate = new Date("March 17, 2021 15:00:00").getTime();
       console.log(sec)
       
       // Output the result in an element with id="demo"
-      document.getElementById("timer").innerHTML = Hours +' :' + min +' :' +sec
+      document.getElementById("timer").innerHTML = Hours +':' + min +':' +sec
       
       // If the count down is over, write some text 
       if (distance < 0) {
