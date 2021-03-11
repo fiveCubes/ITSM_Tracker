@@ -95,29 +95,16 @@ button:active {
 }
 
 /* Media Query: Tablet or Smaller */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .quote-container {
     margin: auto 10px;
   }
 
   .quote-text {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .date-text{
-    font-size:2rem;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .quote-container {
-    margin: auto 10px;
-  }
-
-  .quote-text {
-    font-size: 2rem;
-  }
-  .date-text{
-    font-size: 1rem;
-
+    font-size:0.75rem;
+   
   }
 }

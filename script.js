@@ -9,8 +9,7 @@ var countDownDate = new Date("March 17, 2021 15:00:00").getTime();
       
       // Find the distance between now an the count down date
       var distance = Math.abs(countDownDate - now);
-  
-      console.log(distance)
+
       
       // Time calculations for days, hours, minutes and seconds
       let Hours = Math.floor(distance / ( 1000 * 60 * 60 ));
