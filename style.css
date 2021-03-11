@@ -33,6 +33,7 @@ body {
 } 
 .date-text{
   font-size: 1.5rem;
+  width:100%;
 } 
 
 /* .long-quote {
