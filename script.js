@@ -19,10 +19,6 @@ var countDownDate = new Date("March 17, 2021 15:00:00").getTime();
       let min_left = hours_left % (1000*60)
       let sec = Math.floor(min_left /1000)
   
-      console.log(Hours)
-      console.log(min)
-      console.log(sec)
-      
       // Output the result in an element with id="demo"
       document.getElementById("timer").innerHTML = Hours +':' + min +':' +sec
       
