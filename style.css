@@ -21,7 +21,7 @@ body {
 .quote-container {
   width: auto;
   max-width: 900px;
-  padding: 20px 30px;
+  padding: 2rem 2rem;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -89,15 +89,15 @@ button:active {
 
 
 
-@keyframes spin {
+/* @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
+} */
 
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 500px) {
   .quote-container {
-    margin: auto 10px;
+   margin:0 auto;
   }
 
   .quote-text {
